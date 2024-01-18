@@ -1,0 +1,38 @@
+.behavior-list {
+  max-width: 360px;
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 16px;
+}
+
+.behavior-list-item {
+  list-style: none;
+}
+
+.behavior-list-button {
+  margin: 0;
+  padding: 15px;
+  overflow: hidden;
+  border-radius: 21px;
+  border: 1px solid #e1e1e1;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  height: 60px;
+  width: 172px;
+
+  color: #2d3436;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.behavior-button {
+  margin-top: 130px;
+}

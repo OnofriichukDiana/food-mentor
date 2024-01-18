@@ -1,0 +1,38 @@
+.exercise-active {
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.axercise-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.axercise-list-item {
+  list-style: none;
+}
+
+.axercise-list-item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.axercise-list-button {
+  border: 1px solid #e1e1e1;
+  border-radius: 20px;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 172px;
+  height: 80px;
+  color: #2d3436;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+}

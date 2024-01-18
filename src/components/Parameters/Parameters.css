@@ -1,0 +1,36 @@
+.parameters-tabs {
+  margin-top: 15px;
+  width: 358px;
+  height: 32px;
+  border: 1px solid #5fcb39;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.parameters-tabs-button {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+
+  color: #5fcb39;
+  font-weight: 800;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.parameters-input {
+  margin: 0 0 10px 0;
+}
+
+.parameters-button {
+  margin-top: 160px;
+}
