@@ -18,7 +18,7 @@ const WIDTH = 360;
 
 function App() {
   const [activeStep, setActiveStep] = useState(1);
-  const [state, dispatch] = useReducer(reducer, initialState);
+  const [_, dispatch] = useReducer(reducer, initialState);
 
   const goBack = () => {
     setActiveStep((prev) => (prev < 2 ? 1 : prev - 1));
